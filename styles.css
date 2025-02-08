@@ -1,3 +1,100 @@
-header h1{
-    background-color: aqua;
-}
+  h1 {
+      color: rgb(242, 203, 251);
+      margin: 0;
+      padding: 50px 0;
+      text-align: center;
+  }
+
+  .footer {
+      margin: 30px 0 0 0;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+  }
+
+  .footer img {
+      height: 100px;
+      width: 100px;
+  }
+
+  .header {
+      background-color: rgb(46, 46, 219);
+      padding: 0;
+  }
+
+  .links {
+      background-color: rgb(46, 46, 219);
+      text-align: center;
+      padding: 20px 0;
+      display: flex;
+      justify-content: space-evenly;
+  }
+
+  .links a {
+      margin: 0;
+      color: white;
+      font-size: 120%;
+      text-decoration: none;
+      border: solid 2px white;
+      background-color: rgb(201, 128, 201);
+      padding: 10px;
+      border-radius: 15%;
+  }
+
+  .home:hover {
+      background-color: rgb(201, 128, 201);
+  }
+
+  .contact:hover {
+      background-color: rgb(201, 128, 201);
+  }
+
+  .about:hover {
+      background-color: rgb(201, 128, 201);
+  }
+
+  #current {
+      background-color: rgb(31, 31, 159);
+  }
+
+  .body {
+      width: 100%;
+      height: 100%;
+      background-color: rgb(46, 46, 219);
+      padding: 0;
+  }
+
+  /* .scroll-watcher {
+      height: 10px;
+      position: fixed;
+      top: 0;
+      z-index: 1000;
+      width: 100%;
+      background-color: rgb(46, 46, 219);
+      scale: 0 1;
+      transform-origin: left;
+
+      animation: scroll-watcher linear;
+      animation-timeline: scroll();
+  }
+
+  @keyframes scroll-watcher {
+      to {
+          scale: 1 1;
+      }
+  } */
+
+  img {
+      display: block;
+      margin: auto;
+      padding: 10%;
+  }
+
+  body {
+      margin: auto;
+      /* background-color: rgb(46, 46, 219); */
+  }
+
+  hr {
+      background-color: rgb(201, 128, 201);
+  }
